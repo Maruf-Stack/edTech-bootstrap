@@ -18,7 +18,7 @@
     <!-- header section start  -->
     <header class="container">
         <div class="my-4">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-light sticky-top">
                 <div class="container-fluid">
                     <div>
                         <h1 class="fw-semibold fs-1">IT EXPERT</h1>
@@ -60,35 +60,34 @@
 
         <!-- carousel  -->
         <section>
-            <div class="my-5">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid slider-image" alt="...">
-                            <div class="carousel-caption d-md-block text-white">
-
-                                <h1>Get Started Digital <br>Learning</h1>
-                                <p>It is a long establised fact that a reader will be distracted by the readable<br>
-                                    content of a page when looking at its layout</p>
-                                <button class="btn bg-primary text-white fw-semibold px-4 py-2">
-                                    Get Started
-                                </button>
-                            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 dark-overlay" alt="...">
+                        <div class="carousel-caption d-sm-block d-md-block">
+                            <h1 class="text-white">Get Started Digital <br>Learning</h1>
+                            <p class="text-white">It is a long establised fact that a reader will be distracted by the
+                                readable<br>
+                                content of a page when looking at its layout</p>
+                            <button class="btn bg-primary text-white fw-semibold px-4 py-2">
+                                Get Started
+                            </button>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid" alt="...">
-                        <div class="carousel-caption d-md-block text-white">
-                            <h1>Get Started Digital <br>Learning</h1>
-                            <p>It is a long establised fact that a reader will be distracted by the readable<br>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 dark-overlay" alt="...">
+                        <div class="carousel-caption d-sm-block d-md-block">
+                            <h1 class="text-white">Get Started Digital <br>Learning</h1>
+                            <p class="text-white">It is a long establised fact that a reader will be distracted by the
+                                readable<br>
                                 content of a page when looking at its layout</p>
                             <button class="btn bg-primary text-white fw-semibold px-4 py-2">
                                 Get Started
@@ -96,10 +95,11 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid" alt="...">
-                        <div class="carousel-caption d-md-block text-white">
-                            <h1>Get Started Digital <br>Learning</h1>
-                            <p>It is a long establised fact that a reader will be distracted by the readable<br>
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 dark-overlay" alt="...">
+                        <div class="carousel-caption d-sm-block d-md-block">
+                            <h1 class="text-white">Get Started Digital <br>Learning</h1>
+                            <p class="text-white">It is a long establised fact that a reader will be distracted by the
+                                readable<br>
                                 content of a page when looking at its layout</p>
                             <button class="btn bg-primary text-white fw-semibold px-4 py-2">
                                 Get Started
@@ -107,17 +107,16 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
             </div>
         </section>
     </header>
@@ -137,26 +136,97 @@
             </div>
         </section>
         <section class="course">
-            <div>
-                <div class="">
-                    <div class="row g-2 gy-4 gx-4">
-                        <div class="col-6 col-12 col-sm-12 col-md-12 col-lg-6">
-                            <div
-                                class="d-flex align-items-center justify-content-md-around flex-sm-column flex-md-row justify-content-sm-start border">
-                                <div>
-                                    <img src="images/course/course-1.png" class="img-fluid w-100" alt="">
-                                </div>
-                                <div>
-                                    <h2>Fundamental of UI/UX Design</h2>
-                                    <p>Some quick example text to build on the card title <br>
-                                        and make up the bulk of the card</p>
-                                    <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
-                                </div>
-                            </div>
+            <div class="row g-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-1">
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column">
+                        <div>
+                            <img src="images/course/course-1.png" alt="">
                         </div>
-
+                        <div class="mx-4 my-4">
+                            <h2>Fundamental of UI/UX Design</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column">
+                        <div>
+                            <img src="images/course/course-2.png" alt="">
+                        </div>
+                        <div class="mx-4 my-4">
+                            <h2>Javascript Basic to Advance</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column">
+                        <div>
+                            <img src="images/course/course-3.png" alt="">
+                        </div>
+                        <div class="mx-4 my-4">
+                            <h2>Full Stack Web Development</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column">
+                        <div>
+                            <img src="images/course/course-4.png" alt="">
+                        </div>
+                        <div class="mx-4 my-4">
+                            <h2>Digital Marketing</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column ">
+                        <div>
+                            <img src="images/course/course-5.png" alt="">
+                        </div>
+                        <div class="mx-4 my-4">
+                            <h2>Photography Basic Rules</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div
+                        class="d-flex align-items-center border  rounded ps-0 flex-sm-column flex-md-row flex-lg-row flex-column ">
+                        <div>
+                            <img src="images/course/course-6.png" alt="">
+                        </div>
+                        <div class="mx-4 my-4">
+                            <h2>Motions Graphics</h2>
+                            <p>Some quick example text to build on the card title <br>
+                                and make up the bulk of the card</p>
+                            <h3 class="fs-4 fw-bold text-primary">Price: 20$</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center my-4">
+                <button type="button" class="btn bg-primary text-white fw-semibold fs-3 px-4 p-y-2">View All</button>
+            </div>
         </section>
         <section class="registration">
             <div class="my-5">
@@ -313,6 +383,7 @@
     </main>
 
     <!-- main section end  -->
+    <!-- footer start  -->
     <footer class="bg-dark text-center text-white h-100 mt-5">
         <h1 class="fs-2 fw-bold mb-3 pt-4">IT EXPERT</h1>
         <p class="mb-2">
@@ -329,6 +400,9 @@
         </div>
 
     </footer>
+    <!-- footer end  -->
+
+
     <!--<h2>Fundamental of UI/UX Design</h2>
     <p>Some quick example text to build on the card title <br>
         and make up the bulk of the card</p>
