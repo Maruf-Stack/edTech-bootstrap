@@ -8,3 +8,7 @@ h2 {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.781);
 }
+
+.trusted {
+    margin: 100px 0;
+}
