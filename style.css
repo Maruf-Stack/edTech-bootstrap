@@ -17,8 +17,7 @@ h2 {
     filter: brightness(50%);
 }
 
-@media only screen and (max-width:767px),
-(min-width:576) {
+@media only screen and (max-width:767px) {
     .carousel-caption h1 {
         font-size: 30px;
     }
